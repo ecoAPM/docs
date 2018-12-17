@@ -1,0 +1,10 @@
+.title {
+    font-family: "Noto Sans";
+    font-weight: 300;
+}
+
+.jumbotron {
+    background-color: #538d43;
+    color: white;
+    border-radius: 0;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-100.woff2") format("woff2"),
+    url("NotoSans-100.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-200.woff2") format("woff2"),
+      url("NotoSans-200.woff") format("woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-300.woff2") format("woff2"),
+    url("NotoSans-300.woff") format("woff");
+  font-weight: 300;
+}
