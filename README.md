@@ -1,3 +1,3 @@
-# CoreAPM Documentation
+# ecoAPM Documentation
 
-This is the source for [CoreAPM.org](https://CoreAPM.org)
+This is the source for [ecoAPM.org](https://ecoAPM.org)
