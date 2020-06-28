@@ -19,7 +19,13 @@ body {
 }
 
 img {
+    max-width: 100%;
+    padding: 1rem;
     box-shadow: 0 0 2rem 1rem white;
+}
+
+hr {
+    border-color: #ffffff88;
 }
 
 .details {
@@ -32,6 +38,8 @@ img {
     }
 }
 
-hr {
-    border-color: #ffffff88;
+@media screen and (min-width: 992px) {
+    .details {
+        padding-left: 2rem;
+    }
 }
