@@ -1,10 +1,37 @@
-* {
-    font-family: "Noto Sans";
-    font-weight: 300;
-}
-
-.jumbotron {
+body {
     background-color: #538d43;
     color: white;
-    border-radius: 0;
+    font-family: "Noto Sans";
+    font-weight: 200;
+    height: 100vh;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero>* {
+    margin: 1rem;
+}
+
+img {
+    box-shadow: 0 0 2rem 1rem white;
+}
+
+.details {
+    flex-grow: 2;
+}
+
+@media screen and (max-width: 991px) {
+    .details {
+        text-align: center;
+    }
+}
+
+hr {
+    border-color: #ffffff88;
 }
