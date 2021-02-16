@@ -1,10 +1,14 @@
+:root {
+    --ecogreen: #538d43;
+}
+
 body {
-    background-color: #538d43;
+    background-color: var(--ecogreen);
     color: white;
     font-family: "Noto Sans";
     font-weight: 200;
     height: 100vh;
-    box-shadow: inset 0 0 4rem #00000088;
+    box-shadow: inset 0 0 4rem #0009;
 }
 
 .hero {
@@ -22,11 +26,11 @@ body {
 img {
     max-width: 100%;
     padding: 1rem;
-    box-shadow: 0 0 2rem 1rem white;
+    box-shadow: 0 0 2rem 1rem #fff;
 }
 
 hr {
-    border-color: #ffffff88;
+    border-color: #fff8;
 }
 
 .details {
