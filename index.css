@@ -37,6 +37,14 @@ hr {
     flex-grow: 2;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
     .details {
         text-align: center;
